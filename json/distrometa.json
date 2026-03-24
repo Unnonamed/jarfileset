@@ -40,6 +40,15 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "com.unnonamed:palsalchemist:1.0.0",
+                    "name": "palsalchemist",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "MD5": "92c6c592b9f31d16c2d879392de1a850d60871b4",
+                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsalchemist-1.0.0.jar"
+                    }
                 }
             ]
         }
