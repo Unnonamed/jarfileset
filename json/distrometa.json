@@ -1,0 +1,47 @@
+{
+    "version": "1.0.0",
+    "rss": "https://palpalsi.tistory.com/rss",
+    "discord": {
+        "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "servers": [
+        {
+            "id": "Demo-1.21.11",
+            "name": "test01 (Minecraft 1.21.11)",
+            "description": "Demo Running Minecraft 21.0.7 (Fabric 0.18.2)",
+            "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+            "version": "1.0.0",
+            "address": "server.hamster.64bit.kr",
+            "minecraftVersion": "1.21.11",
+            "discord": {
+                "shortId": "1.21.11 Demo",
+                "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
+                "largeImageText": "fabric"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.18.2",
+                    "name": "Fabric (fabric-loader)",
+                    "type": "Fabric",
+                    "artifact": {
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar"
+                    },
+                    "subModules": [
+                        {
+                        "id": "1.21.1-fabric-0.18.2",
+                        "name": "Fabric (version.json)",
+                        "type": "VersionManifest",
+                            "artifact": {
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.18.2/profile/json"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
