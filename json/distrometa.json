@@ -8,15 +8,15 @@
     },
     "servers": [
         {
-            "id": "Demo-1.21.11",
-            "name": "test01 (Minecraft 1.21.11)",
-            "description": "Demo Running Minecraft 21.0.7 (Fabric 0.18.2)",
+            "id": "Palpal-1.20.1",
+            "name": "test01 (Minecraft 1.20.1)",
+            "description": "Demo Running Minecraft 1.20.1 (Fabric 0.18.4)",
             "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
             "version": "1.0.0",
             "address": "server.hamster.64bit.kr",
-            "minecraftVersion": "1.21.11",
+            "minecraftVersion": "1.20.1",
             "discord": {
-                "shortId": "1.21.11 Demo",
+                "shortId": "Palpal-1.20.1",
                 "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
                 "largeImageText": "fabric"
             },
@@ -24,19 +24,19 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.fabricmc:fabric-loader:0.18.2",
+                    "id": "net.fabricmc:fabric-loader:0.18.4",
                     "name": "Fabric (fabric-loader)",
                     "type": "Fabric",
                     "artifact": {
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar"
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
                     },
                     "subModules": [
                         {
-                        "id": "1.21.1-fabric-0.18.2",
+                        "id": "1.20.1-fabric-0.18.4",
                         "name": "Fabric (version.json)",
                         "type": "VersionManifest",
                             "artifact": {
-                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.18.2/profile/json"
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.18.4/profile/json"
                             }
                         }
                     ]
