@@ -8,15 +8,15 @@
     },
     "servers": [
         {
-            "id": "Palpal-1.20.1",
-            "name": "test01 (Minecraft 1.20.1)",
+            "id": "PalPal-1.20.1",
+            "name": "PalPal (Minecraft 1.20.1)",
             "description": "Demo Running Minecraft 1.20.1 (Fabric 0.18.4)",
             "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
             "version": "1.0.0",
             "address": "server.hamster.64bit.kr",
             "minecraftVersion": "1.20.1",
             "discord": {
-                "shortId": "Palpal-1.20.1",
+                "shortId": "PalPal-1.20.1",
                 "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
                 "largeImageText": "fabric"
             },
@@ -32,11 +32,83 @@
                     },
                     "subModules": [
                         {
-                        "id": "1.20.1-fabric-0.18.4",
-                        "name": "Fabric (version.json)",
-                        "type": "VersionManifest",
+                            "id": "1.20.1-fabric-0.18.4",
+                            "name": "Fabric (version.json)",
+                            "type": "VersionManifest",
                             "artifact": {
                                 "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.18.4/profile/json"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.7.1",
+                            "name": "Fabric (asm)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-analysis:9.7.1",
+                            "name": "Fabric (asm-analysis)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.7.1",
+                            "name": "Fabric (asm-commons)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.7.1",
+                            "name": "Fabric (asm-tree)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-util:9.7.1",
+                            "name": "Fabric (asm-util)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+                            "name": "Fabric (sponge-mixin)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:intermediary:1.20.1",
+                            "name": "Fabric (intermediary)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:access-widener:2.1.0",
+                            "name": "Fabric (access-widener)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:mapping-io:0.7.1",
+                            "name": "Fabric (mapping-io)",
+                            "type": "Library",
+                            "artifact": {
+                                "url": "https://maven.fabricmc.net/net/fabricmc/mapping-io/0.7.1/mapping-io-0.7.1.jar"
                             }
                         }
                     ]
@@ -45,6 +117,10 @@
                     "id": "com.unnonamed:palsalchemist:1.0.0",
                     "name": "palsalchemist",
                     "type": "FabricMod",
+                    "required": {
+                      "value": false,
+                      "def": true
+                    },
                     "artifact": {
                         "MD5": "92c6c592b9f31d16c2d879392de1a850d60871b4",
                         "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsalchemist-1.0.0.jar"
