@@ -130,8 +130,47 @@
                       "def": true
                     },
                     "artifact": {
-                        "MD5": "92c6c592b9f31d16c2d879392de1a850d60871b4",
+                        "MD5": "90098f8089908e914db85e95fe5a89b4",
                         "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsalchemist-1.0.0.jar"
+                    }
+                },
+                                {
+                    "id": "com.unnonamed:palsenchantment-1.0.0:1.0.0",
+                    "name": "palsenchantment",
+                    "type": "FabricMod",
+                    "required": {
+                      "value": false,
+                      "def": true
+                    },
+                    "artifact": {
+                        "MD5": "79047b8135fc8f882744792403195fe5",
+                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsenchantment-1.0.0.jar"
+                    }
+                },
+                                {
+                    "id": "com.unnonamed:palsmagics-1.0.0:1.0.0",
+                    "name": "palsmagics",
+                    "type": "FabricMod",
+                    "required": {
+                      "value": false,
+                      "def": true
+                    },
+                    "artifact": {
+                        "MD5": "5f725f06f4d2d241fe53389e1ac62b03",
+                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsmagics-1.0.0.jar"
+                    }
+                },
+                                {
+                    "id": "com.unnonamed:palsmob-1.0.0:1.0.0",
+                    "name": "palsmob",
+                    "type": "FabricMod",
+                    "required": {
+                      "value": false,
+                      "def": true
+                    },
+                    "artifact": {
+                        "MD5": "ef95c5277813db9b5d7725a3cb796daa",
+                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsmob-1.0.0.jar"
                     }
                 }
             ]
