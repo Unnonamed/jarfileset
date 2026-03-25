@@ -118,7 +118,7 @@
                     "name": "Fabric API",
                     "type": "Library",
                     "artifact": {
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.92.7+1.20.1/fabric-api-0.92.7+1.20.1.jar",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.92.7+1.20.1/fabric-api-0.92.7+1.20.1.jar"
                     }
                 },
                 {
