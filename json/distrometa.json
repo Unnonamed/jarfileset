@@ -19,7 +19,7 @@
                 "supported": "21.x",
                 "suggestedMajor": 21
             },
-                "discord": {
+            "discord": {
                 "shortId": "PalPal-1.20.1",
                 "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
                 "largeImageText": "fabric"
