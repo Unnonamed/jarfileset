@@ -139,6 +139,19 @@
                     }
                 },
                 {
+                    "id": "com.unnonamed:royal_recruits:1.0.0",
+                    "name": "royal_recruits",
+                    "type": "FabricMod",
+                    "required": {
+                      "value": false,
+                      "def": true
+                    },
+                    "artifact": {
+                        "MD5": "9d76ed321fb8d8ddca15566e3357489f",
+                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/royal_recruits-1.0.0.jar"
+                    }
+                },                
+                {
                     "id": "com.unnonamed:palsenchantment:1.0.0",
                     "name": "palsenchantment",
                     "type": "FabricMod",
