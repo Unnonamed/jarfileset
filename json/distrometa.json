@@ -9,7 +9,7 @@
     "servers": [
         {
             "id": "PalPal-1.20.1",
-            "name": "PalPal (Minecraft 1.20.1)",
+            "name": "팔타지아 (Minecraft 1.20.1)",
             "description": "Demo Running Minecraft 1.20.1 (Fabric 0.18.4)",
             "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
             "version": "1.0.0",
@@ -126,19 +126,6 @@
                     }
                 },
                 {
-                    "id": "com.unnonamed:palsalchemist:1.0.0",
-                    "name": "palsalchemist",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "MD5": "90098f8089908e914db85e95fe5a89b4",
-                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsalchemist-1.0.0.jar"
-                    }
-                },
-                {
                     "id": "com.unnonamed:royal_recruits:1.0.0",
                     "name": "royal_recruits",
                     "type": "FabricMod",
@@ -149,45 +136,6 @@
                     "artifact": {
                         "MD5": "9d76ed321fb8d8ddca15566e3357489f",
                         "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/royal_recruits-1.0.0.jar"
-                    }
-                },                
-                {
-                    "id": "com.unnonamed:palsenchantment:1.0.0",
-                    "name": "palsenchantment",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "MD5": "79047b8135fc8f882744792403195fe5",
-                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsenchantment-1.0.0.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:palsmagics:1.0.0",
-                    "name": "palsmagics",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "MD5": "5f725f06f4d2d241fe53389e1ac62b03",
-                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsmagics-1.0.0.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:palsmob:1.0.0",
-                    "name": "palsmob",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "MD5": "ef95c5277813db9b5d7725a3cb796daa",
-                        "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/palsmob-1.0.0.jar"
                     }
                 },
                 {
@@ -202,163 +150,7 @@
                         "MD5": "2fd23d4a55831d135c3435d31fe1d9e5",
                         "url": "https://raw.githubusercontent.com/Unnonamed/jarfileset/main/jar/jobmastery-1.0.0.jar"
                     }
-                },
-                {
-                    "id": "com.unnonamed:xaerominimap:25.3.7",
-                    "name": "xaerominimap",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/JkSi2Fzx/versions/GWbYzvo3/Xaeros_Minimap_FP24.2.0_Fabric_1.20.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:weaponleveling:2.2.2",
-                    "name": "weaponleveling",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/IuFgFiGE/versions/DV7y9ZUl/weaponleveling-1.20.1-2.2.2-fabric.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:waystones-fabric:14.1.20",
-                    "name": "waystones-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/qHh09oyJ/waystones-fabric-1.20.1-14.1.20.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:trinkets:3.7.2",
-                    "name": "trinkets",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/5aaWibi9/versions/AHxQGtuC/trinkets-3.7.2.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:spell_power:0.12.0",
-                    "name": "spell_power",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/8ooWzSQP/versions/G74msHHs/spell_power-0.12.0%2B1.20.1.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:spell_engine:0.15.12",
-                    "name": "spell_engine",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/Fh2MJAAe/spell_engine-0.15.12%2B1.20.1.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:simplyswords-fabric:1.56.0",
-                    "name": "simplyswords-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/xe5E39uw/simplyswords-fabric-1.56.0-1.20.1.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:simplymore-fabric:1.1.3",
-                    "name": "simplymore-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/zhpyD8Y0/versions/oxNX8OYm/simplymore-fabric-1.1.3.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:rhino-fabric:2001.2.3",
-                    "name": "rhino-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/MLIu0Tct/rhino-fabric-2001.2.3-build.10.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:player-animation-lib-fabric:1.0.2-rc1",
-                    "name": "player-animation-lib-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/yDqYTUaf/player-animation-lib-fabric-1.0.2-rc1%2B1.20.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:neat-fabric:1.20.1-41",
-                    "name": "neat-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/Ins7SzzR/versions/lA2qbY0w/Neat-1.20.1-41-FABRIC.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:lazyrecipeseditor-fabric:1.0.2",
-                    "name": "lazyrecipeseditor-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/oh674uDB/versions/MBStppT0/lazyrecipeseditor-1.0.2.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:kubejs-fabric:2001.6.5",
-                    "name": "kubejs-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/kPLHkyoJ/kubejs-fabric-2001.6.5-build.16.jar"
-                    }
-                },
+                }
                 {
                     "id": "com.unnonamed:geckolib-fabric:1.20.1-4.8.3",
                     "name": "geckolib-fabric",
@@ -369,30 +161,6 @@
                     },
                     "artifact": {
                         "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/PdrSPr53/geckolib-fabric-1.20.1-4.8.3.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:easy_npc_config_ui-fabric:1.20.1-6.8.3",
-                    "name": "easy_npc_config_ui-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/uTGjf7vA/versions/1y2fVh7c/easy_npc_config_ui-fabric-1.20.1-6.8.3.jar"
-                    }
-                },
-                {
-                    "id": "com.unnonamed:easy_npc_bundle-fabric:1.20.1-6.8.3",
-                    "name": "easy_npc_bundle-fabric",
-                    "type": "FabricMod",
-                    "required": {
-                      "value": false,
-                      "def": true
-                    },
-                    "artifact": {
-                        "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/XRyVBfsd/easy_npc-fabric-1.20.1-6.8.3.jar"
                     }
                 }
             ]
